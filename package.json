@@ -1,0 +1,19 @@
+{
+	"name" : "aula02",
+	"author" : "F",
+	"description" : "Exercício para aula02 de PP com 3 exemplos",
+  "requires": true,
+  "scripts" : {
+	  "start" : "echo veja README para ver os comandos",
+	  "exemplo1" : "tsc && node ./dist/exemplo1.js",
+	  "exemplo2" : "tsc && node ./dist/exemplo2.js",
+	  "exemplo3" : "tsc && node ./dist/exemplo3.js"
+  },
+  "dependencies": {
+    "typescript": {
+      "version": "4.2.4",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz",
+      "integrity": "sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg=="
+    }
+  }
+}
